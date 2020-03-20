@@ -1,8 +1,20 @@
 package pl.Szachy;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Board {
-    ArrayList board = new ArrayList(64);
-    
+    private Integer[][] board;
+
+    public Board(Integer[][] board) {
+        this.board = board;
+    }
+
+    public Integer[][] sampleBoard() {
+
+        return board;
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
